@@ -1,0 +1,2496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="global2.css" />
+    <link rel="stylesheet" href="search.css" />
+    <script defer src="pc.js"></script>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io_(2)/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io_(2)/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io_(2)/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon_io_(2)/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./favicon_io_(2)/"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Sigmar&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+  "
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="modal hide"></div>
+    <div class="menu-bar hide"></div>
+
+    <nav>
+      <div class="navbar">
+        <div class="nav-btn">
+          <div class="bar one"></div>
+          <div class="bar two"></div>
+          <div class="bar three"></div>
+        </div>
+        <div class="circle"></div>
+        <span class="logo">
+          <img
+            src="../src/images/logos/image2vector (2).svg"
+            height="70"
+            alt=""
+            srcset=""
+          />
+        </span>
+        <!-- search -->
+
+        <div
+          class="searchbtn"
+          style="
+            background-color: whitesmoke;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+          "
+        >
+          <span
+            style="
+              cursor: pointer;
+              user-select: none;
+              font-size: 2rem;
+              color: black;
+              display: flex;
+
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 100%;
+            "
+            class="material-symbols-outlined"
+          >
+            search
+          </span>
+        </div>
+
+        <input
+          type="search"
+          class="search-bar hide"
+          placeholder="Search For AnyGame"
+        />
+        <span
+          style="margin-top: -0.5%; margin-left: 1rem"
+          class="close-btn hide"
+          ><img
+            height="30"
+            src="../src/images/logos/close-removebg-preview.png"
+            alt=""
+            srcset=""
+          />
+        </span>
+      </div>
+    </nav>
+    <section id="hero-list">
+      <ul>
+        <li class="hero2">
+          <div class="blackoverlay">
+            <figure>
+              <img
+                class="image-box"
+                src="./image/wp2411321-watch-dogs-2-4k-pc-wallpapers.jpg"
+                alt=""
+              />
+              <video
+                class="video-box"
+                src="./image/InShot_20230511_1536055101.mp4"
+                height="100%"
+                autoplay
+                controls
+                muted
+              ></video>
+            </figure>
+            <a class="cta" href="#">
+              <div class="play">
+                <span class="material-symbols-outlined"> play_arrow </span>
+              </div>
+
+              <div class="pause">
+                <span class="material-symbols-outlined"> pause </span>
+              </div>
+
+              see trailer</a
+            >
+            <a class="cta1" href="#">
+              <img
+                height="13"
+                width="20"
+                style="margin-top: -3px"
+                src="./image/online-shop-icon-white-png.png"
+                alt=""
+              />buy game</a
+            >
+            <!-- <a class="cta2" href="#">
+              <img
+                height="30"
+                width="30"
+                style="margin-top: -3px"
+                src="./image/favourite-removebg-preview.png"
+                title="favourite"
+                alt=""
+            /></a> -->
+          </div>
+          <span
+            style="font-size: 2.5rem"
+            class="material-symbols-outlined left-arrow"
+          >
+            chevron_left
+          </span>
+          <span
+            style="font-size: 2.5rem"
+            class="material-symbols-outlined right-arrow"
+          >
+            chevron_right
+          </span>
+        </li>
+      </ul>
+    </section>
+    <main>
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">New release</h2>
+        </header>
+        <ul class="grid">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp11996047-diablo-4k-wallpapers.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp10519240-company-of-heroes-3-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp11421154-dead-island-2-gold-edition-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp6072778-cyberpunk-2077-4k-pc-wallpapers.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp12005386-star-wars-jedi-survivor-standard-edition-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp10511357-system-shock-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp11243486-street-fighter-6-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp11318755-honkai-star-rail-hd-wallpapers.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp11919601-one-piece-odyssey-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/wp12103560-starfield-game-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small">
+                  <img
+                    style="margin: -3px 8px"
+                    height="15"
+                    width="20"
+                    src="./image/puchase.png "
+                    alt=""
+                  />buy now</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"> pc games </a>
+          </li>
+        </ul>
+      </section>
+      <!--  -->
+
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">A C T I O N</h2>
+        </header>
+        <ul class="grid2">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/action/wp5319634-grand-theft-auto-v-hd-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke"
+              ><img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/action/wp10497862-devil-may-cry-5-nero-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/action/wp6511601-the-witcher-3-wild-hunt-hd-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/action/capsule_616x353 (1).jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/control ultimate.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/Spider-Man-Miles-Reivew-PC-Header.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/wp10781878-uncharted-legacy-of-thieves-collection-desktop-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/wp2941386-batman-arkham-city-desktop-hd-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/wp3707273-resident-evil-revelations-2-desktop-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/wp4786622-kratos-god-of-war-3-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/wp9015183-red-dead-redemption-2-pc-4k-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//action/jP8In4S-l4d2-wallpaper.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: whitesmoke">
+              <img
+                height="9"
+                width="50"
+                src="./image/images__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <!-- ftp -->
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">F T P</h2>
+        </header>
+        <ul class="grid2">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/ftp/wp11711531-call-of-duty-warzone-20-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/ftp/fornite.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/ftp/wp11245420-apex-legends-hd-2023-gaming-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/ftp/wp1810706-counter-strike-global-offensive-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//ftp/wp11488682-destiny-2-lightfall-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/ftp/OW2-be9287b234afbe7898ac.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//ftp/wp10624397-lost-ark-2022-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//ftp/4XTiEN9-eve-online-backgrounds.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//ftp/wp11876803-valorant-2023-wallpapers (1).jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//ftp/wp1840271-hearthstone-heroes-of-warcraft-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//ftp/warframe-metacard.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/ftp/wp1914667-war-thunder-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+        </ul>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">adventure</h2>
+        </header>
+        <ul class="grid2">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/days gone.webp"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/wp11962068-the-walking-dead-computer-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/fallout-4-games-open-world.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/life is strange.webp"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new//adventure/valhalla.jpg"
+                alt="cover art"
+                rs.jpg
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/wp2225961-the-elder-scrolls-v-skyrim-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/image.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> F T P </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/wp12246106-redfall-game-wallpapers (1).jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/image.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/farcry.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/stray.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/adventure/the last of us.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> a d v </a>
+          </li>
+        </ul>
+      </section>
+
+      <!--  -->
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">racing</h2>
+        </header>
+        <ul class="grid2">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp10567301-forza-horizon-4k-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp1865412-asphalt-8-airborne-wallpapers (1).jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp4259610-asphalt-9-legends-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp6193506-assetto-corsa-competizione-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/Dirt5_Logo.jpg"
+                alt="cover art"
+                rs.jpg
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/most wanted.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp3811533-wreckfest-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp6803475-need-for-speed-payback-desktop-4k-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp6563711-burnout-paradise-remastered-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp6193506-assetto-corsa-competizione-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp12136442-forza-horizon-5-rally-adventure-dlc-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/wp11266390-f1-22-wallpapers.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- sport -->
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">sport</h2>
+        </header>
+        <ul class="grid2">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp3065818-madden-nfl-19-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp9657868-nba-2k22-wallpapers.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport</a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp2218857-wwe-2k18-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp3131587-pro-evolution-soccer-2018-hd-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/Tokyo-2020-Olympic-Games.jpg"
+                alt="cover art"
+                rs.jpg
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/cycling.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/baseball.avif"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp9864437-football-manager-2022-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/2k23.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp3535328-nba-2k19-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp12005305-blood-bowl-3-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> sport </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/sport/wp4523743-efootball-pes-2020-wallpapers.png"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- horror -->
+      <section class="sec">
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined left-arrow1"
+        >
+          chevron_left
+        </span>
+        <span
+          style="font-size: 2.5rem"
+          class="material-symbols-outlined right-arrow2"
+        >
+          chevron_right
+        </span>
+        <header class="head-box1">
+          <h2 class="head">horror</h2>
+        </header>
+        <ul class="grid2">
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/wp12291988-dying-light-2-stay-human-city-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/outlast.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/darkwood.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/dead by daylight.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/nightmare.avif"
+                alt="cover art"
+                rs.jpg
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/racing/most wanted.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> racing </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/obeserver.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/phasmophobia1.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/the evil within.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/wp11245702-the-quarry-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/wp2073985-resident-evil-7-biohazard-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+          <li class="music-data">
+            <span class="image-link">
+              <img
+                width="300"
+                src="./image/realse new/horror/wp11478362-soma-game-desktop-wallpapers.jpg"
+                alt="cover art"
+                class="cover"
+              />
+            </span>
+            <a href="#" class="details">
+              <span class="tag">
+                grand theft auto V (2019) <br />
+                <span class="small2">
+                  <img
+                    style="margin: -6px 8px"
+                    height="22"
+                    src="./image/download.png"
+                    alt=""
+                  />Download</span
+                >
+              </span>
+            </a>
+            <a class="label" href="#" style="color: black"> horror </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- playstation 4 extra for my site  -->
+
+      <section class="splide" aria-labelledby="carousel-heading">
+        <div class="splide__track">
+          <ul id="hero-list3" class="splide__list">
+            <li class="hero3 item1 splide__slide">
+              <div class="overlay">
+                <div class="figure1">
+                  <img
+                    class="image2"
+                    src="./image/hero/wp11711534-call-of-duty-warzone-2-wallpapers.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="hero4 item1 splide__slide">
+              <div class="overlay">
+                <div class="figure1">
+                  <img
+                    class="image2"
+                    src="./image/hero/wp12051875-capcom-resident-evil-4-2023-wallpapers.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="hero5 item1 splide__slide">
+              <div class="overlay">
+                <div class="figure1">
+                  <img
+                    class="image2"
+                    src="./image/hero/wp1854626-the-witcher-3-pc-wallpapers.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="hero6 item1 splide__slide">
+              <div class="overlay">
+                <div class="figure1">
+                  <img
+                    class="image2"
+                    src="./image/hero/dead by day1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="hero7 item1 splide__slide">
+              <div class="overlay">
+                <div class="figure1">
+                  <img
+                    class="image2"
+                    src="./image/hero/wp12136442-forza-horizon-5-rally-adventure-dlc-wallpapers (1).jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="hero8 item1 splide__slide">
+              <div class="overlay">
+                <div class="figure1">
+                  <img
+                    class="image2"
+                    src="./image/hero/wp12292017-dying-light-2-stay-human-city-wallpapers.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <script src="
+      https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+      "></script>
+    </main>
+  </body>
+</html>

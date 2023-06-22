@@ -1,0 +1,124 @@
+ <ul class="image-section">
+          <li id="image-section">
+            <img
+              height="150"
+              width="220"
+              src="./image/hero/images__12_-removebg-preview.png"
+              alt=""
+            />
+          </li>
+          <li id="image-section1">
+            <img
+              height="420"
+              src="./image/hero/AL_Bangalore_Portrait.png"
+              alt=""
+            />
+          </li>
+          <li class="image-header">
+            <h2>APEX COINS</h2>
+            <p>
+              free coin<br />unlocked all level <br />free shopping
+              <br />unlimited money <br />aimbot <br />
+              ads free mod
+            </p>
+            <span class="image-buy">
+              <img
+                style="margin: -3px 8px"
+                height="15"
+                width="20"
+                src="./image/puchase.png "
+                alt=""
+              />buy now</span
+            >
+          </li>
+          <li class="coin-img">
+            <img height="100" width="270" src="./image/hero/icon2.png" alt="" />
+          </li>
+        
+        </ul>
+
+
+
+
+css
+
+.image-section{
+  display: flex;
+  flex-direction: row;
+}
+#image-section{
+margin: 7em 3em;
+}
+.image-header{
+  margin : 6em 12em;
+}
+.image-header h2{
+ color: #fff;
+
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image-header p{
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+ 
+  font-size: small;
+} 
+.coin-img{
+ margin: 14em -64em;
+}
+.coin{
+position: absolute;
+right: 15%;
+
+}
+.psp-img{
+  position: absolute;
+right: 0;
+margin : 8em 6em;
+
+}
+.image-buy{
+  background-color: rgb(216, 31, 38);
+  border-radius: 10px;
+  box-shadow: rgba(rgb(216, 31, 38)) 0 -25px 18px -14px inset,
+    rgba(rgb(216, 31, 38)) 0 1px 2px, rgba(rgb(216, 31, 38)) 0 2px 4px,
+    rgba(rgb(216, 31, 38)) 0 4px 8px, rgba(rgb(216, 31, 38)) 0 8px 16px,
+    rgba(rgb(216, 31, 38)) 0 16px 32px;
+  color: wheat;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 12px;
+  align-items: center;
+  user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-animation: breathing 5s ease-out infinite normal;
+  animation: breathing 5s ease-out infinite normal;
+  margin: 1em -1.5em;
+}
+li{
+  list-style: none;
+}
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  bottom: -5%;
+
+  transform: translateY(-50%);
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  user-select: none;
+  /* z-index: 1000; */
+}
